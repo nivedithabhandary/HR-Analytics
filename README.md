@@ -23,14 +23,14 @@ It shows details for last 5 years and contains the following fields:
 
 The correlation between different features of the dataset showed that employees with low satisfaction_level left. The correlation heat map is shown below:
 <p align="center">
-  <img src="https://github.com/nivedithabhandary/HR-Analytics/blob/master/Screen%20Shot%202017-05-04%20at%2012.56.35%20PM.png">
+  <img src="https://github.com/nivedithabhandary/HR-Analytics/blob/master/Correlation%20heat%20map.png">
 </p>
 
 ## Classifiers
 
 Different classifier performance was checked on the dataset using cross validation. Decision tree classifier performed the best. Decision Tree plot for the dataset is shown below:
 <p align="center">
-  <img src="https://github.com/nivedithabhandary/HR-Analytics/blob/master/coloured_tree.pdf">
+  <img src="https://github.com/nivedithabhandary/HR-Analytics/blob/master/Decision%20tree.png">
 </p>
 
 ## Regression to predict satisfaction_level
