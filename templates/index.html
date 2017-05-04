@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h3>HR Analytics System</h3>
+<form action="/improveSatisfaction" method="POST">
+  Satisfaction level:<br>
+  <input type="text" name="satisfaction_level" value="0.34">
+  <br>
+  Last Evaluation:<br>
+  <input type="text" name="last_evaluation" value="0.57">
+  <br>
+  Number of projects:<br>
+  <input type="text" name="number_project" value="2">
+  <br>
+  Average monthly hours:<br>
+  <input type="text" name="average_montly_hours" value="141">
+  <br>
+  Time spent in company:<br>
+  <input type="text" name="time_spend_company" value="3">
+  <br>
+  Work accidents:<br>
+  <input type="text" name="Work_accident" value="0">
+  <br>
+  Promotion last 5 years:<br>
+  <input type="text" name="promotion_last_5years" value="0">
+  <br>
+  Department:<br>
+  <input type="text" name="department" value="7">
+  <br>
+  Salary (0,1,2):<br>
+  <input type="text" name="salary" value="1">
+  <br>
+  <input type="submit" value="Submit" name="submit">
+</form>
+
+{% if test %}
+<h4> Entered employee details were: {{test}} </h4>
+{% endif %}
+
+{% if suggestions %}
+<h4> Suggestions to HR:{{suggestions}} </h4>
+{% endif %}
+
+</body>
+</html>
