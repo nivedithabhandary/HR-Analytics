@@ -19,6 +19,8 @@ It shows details for last 5 years and contains the following fields:
 * Salary (low, medium or high)
 * Whether the employee has left the company or not
 
+<a href = "http://nbviewer.jupyter.org/github/nivedithabhandary/HR-Analytics/blob/master/Project.ipynb">Jupyter notebook</a>
+
 ## Analyse dataset:
 
 The correlation between different features of the dataset showed that employees with low satisfaction_level left. The correlation heat map is shown below:
